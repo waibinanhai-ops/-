@@ -10,7 +10,9 @@
 
 ## [Unreleased]
 
-（待记录的新变更将出现在这里）
+### Added
+- chore(admin): add project CLAUDE.md with commit workflow (`8494d88`)
+- chore(admin): add CHANGELOG.md (`cea0948`)
 
 ---
 

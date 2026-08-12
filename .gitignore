@@ -41,6 +41,12 @@ venv/
 # Logs
 *.log
 
+# Claude Code (track project config, ignore personal files)
+.claude/*
+!.claude/CLAUDE.md
+!.claude/agents/
+!.claude/workflows/
+
 # Credentials
 *.pem
 *.key
