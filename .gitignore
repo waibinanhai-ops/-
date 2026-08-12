@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# Swift
+*.o
+*.swiftdoc
+*.swiftmodule
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+
+# Pipeline state (per-project)
+.pipeline_state.json
+
+# Logs
+*.log
+
+# Credentials
+*.pem
+*.key
+auth.json

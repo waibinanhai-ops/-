@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EDA3FF7278B4AF9C021BD9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DD745E65E213B20B1AF5DA /* AppDelegate.swift */; };
+		0864862303E85E6D3180FA09 /* ClipVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B92237C5933905ACD6C746 /* ClipVaultApp.swift */; };
+		8BE1FB42A687FBE04C4758A8 /* ClipPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DE132ADFE9341EFF895B7B /* ClipPanelController.swift */; };
+		EA886B4683442DDE0014A7B3 /* ClipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96ABA5891827B716908B6F4 /* ClipCardView.swift */; };
+		F200359A546010340EE48B9E /* ClipListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D35F21B7C0909290271704 /* ClipListView.swift */; };
+		D8CBA22E51351A3443B575F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050195579F5C8505896F58D3 /* ContentView.swift */; };
+		B63E4FD06C12649B30B72291 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2E4335FCB2068FCCB7EF1 /* DetailView.swift */; };
+		B1DEACB777F83BBEB5B96593 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A07CA39A76CD66450BD81 /* EmptyStateView.swift */; };
+		A526E129174FE64B08FDC782 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383DA76C6A133F6ED71510C /* SearchBarView.swift */; };
+		47C4C39E9ACE823B3EDF338B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A04392C133622687356893 /* SettingsView.swift */; };
+		61458031C566A3D4A875BDCB /* CleanupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD368A01AE2E27AA4E5C7F70 /* CleanupService.swift */; };
+		76CD3FAAD2EAC1ADB17B7030 /* ClipboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABAA56123FF12AF68F2A72C /* ClipboardMonitor.swift */; };
+		639060425A38F31AD8C50F93 /* ClipboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1B64EE18D3417C3A28A7D /* ClipboardService.swift */; };
+		E52ED10E71AD1566612040DE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018283E80BBC27597A6FC81 /* DataService.swift */; };
+		9879B6C7B99EB76BDEAD6E21 /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CA3379328893117B7BFC5 /* ImageStorageService.swift */; };
+		2DAE2D1D6BF8944208D8D6A6 /* ShortcutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4401A8DBDC105F2D0E0614 /* ShortcutService.swift */; };
+		F557C197857A20EA7020CF51 /* ClipEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1EB9FC687F7AAFFA28C87B /* ClipEntry.swift */; };
+		00483D6FED11C6DC28C018A5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C5591B81F494F3FE19629 /* Date+Extensions.swift */; };
+		9997C426FEC4139178359AC8 /* NSImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45B3CDC32021996807B9B98 /* NSImage+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92DD745E65E213B20B1AF5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate.swift"; sourceTree = "<group>"; };
+		B2B92237C5933905ACD6C746 /* ClipVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipVaultApp.swift"; sourceTree = "<group>"; };
+		15DE132ADFE9341EFF895B7B /* ClipPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipPanelController.swift"; sourceTree = "<group>"; };
+		D96ABA5891827B716908B6F4 /* ClipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipCardView.swift"; sourceTree = "<group>"; };
+		E2D35F21B7C0909290271704 /* ClipListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipListView.swift"; sourceTree = "<group>"; };
+		050195579F5C8505896F58D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		CAA2E4335FCB2068FCCB7EF1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailView.swift"; sourceTree = "<group>"; };
+		186A07CA39A76CD66450BD81 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmptyStateView.swift"; sourceTree = "<group>"; };
+		4383DA76C6A133F6ED71510C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBarView.swift"; sourceTree = "<group>"; };
+		A6A04392C133622687356893 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		FD368A01AE2E27AA4E5C7F70 /* CleanupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CleanupService.swift"; sourceTree = "<group>"; };
+		BABAA56123FF12AF68F2A72C /* ClipboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardMonitor.swift"; sourceTree = "<group>"; };
+		8BE1B64EE18D3417C3A28A7D /* ClipboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardService.swift"; sourceTree = "<group>"; };
+		6018283E80BBC27597A6FC81 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataService.swift"; sourceTree = "<group>"; };
+		384CA3379328893117B7BFC5 /* ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageStorageService.swift"; sourceTree = "<group>"; };
+		7A4401A8DBDC105F2D0E0614 /* ShortcutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShortcutService.swift"; sourceTree = "<group>"; };
+		2F1EB9FC687F7AAFFA28C87B /* ClipEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipEntry.swift"; sourceTree = "<group>"; };
+		F31C5591B81F494F3FE19629 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		E45B3CDC32021996807B9B98 /* NSImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Extensions.swift"; sourceTree = "<group>"; };
+		A6C5D341CE7BAB30F7A2F21E /* ClipVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClipVault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9119C3D9689B15084C954B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D06EB0960868B5FA90E90DE4 = {
+			isa = PBXGroup;
+			children = (
+				341E92CAE6AAE7306B0CA230 /* Sources */,
+				9119C3D9689B15084C954B70 /* Info.plist */,
+				89A60A397116491050B7CA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		341E92CAE6AAE7306B0CA230 = {
+			isa = PBXGroup;
+			children = (
+				3D55EDBFA2C6D823761B9921 /* Extension */,
+				EF934F38042E7E2B68F4B26D /* Model */,
+				F5898592DC0A387CCC5B28DC /* Panel */,
+				1EDDAF046481CF60FBD29675 /* Service */,
+				8470F082E875342996548543 /* UI */,
+				92DD745E65E213B20B1AF5DA /* AppDelegate.swift */,
+				B2B92237C5933905ACD6C746 /* ClipVaultApp.swift */,
+			);
+			path = "Sources/ClipVault";
+			sourceTree = "<group>";
+		};
+		3D55EDBFA2C6D823761B9921 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F31C5591B81F494F3FE19629 /* Date+Extensions.swift */,
+				E45B3CDC32021996807B9B98 /* NSImage+Extensions.swift */,
+			);
+			name = "Extension";
+			path = "Extension";
+			sourceTree = "<group>";
+		};
+		EF934F38042E7E2B68F4B26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F1EB9FC687F7AAFFA28C87B /* ClipEntry.swift */,
+			);
+			name = "Model";
+			path = "Model";
+			sourceTree = "<group>";
+		};
+		F5898592DC0A387CCC5B28DC /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				15DE132ADFE9341EFF895B7B /* ClipPanelController.swift */,
+			);
+			name = "Panel";
+			path = "Panel";
+			sourceTree = "<group>";
+		};
+		1EDDAF046481CF60FBD29675 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FD368A01AE2E27AA4E5C7F70 /* CleanupService.swift */,
+				BABAA56123FF12AF68F2A72C /* ClipboardMonitor.swift */,
+				8BE1B64EE18D3417C3A28A7D /* ClipboardService.swift */,
+				6018283E80BBC27597A6FC81 /* DataService.swift */,
+				384CA3379328893117B7BFC5 /* ImageStorageService.swift */,
+				7A4401A8DBDC105F2D0E0614 /* ShortcutService.swift */,
+			);
+			name = "Service";
+			path = "Service";
+			sourceTree = "<group>";
+		};
+		8470F082E875342996548543 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D96ABA5891827B716908B6F4 /* ClipCardView.swift */,
+				E2D35F21B7C0909290271704 /* ClipListView.swift */,
+				050195579F5C8505896F58D3 /* ContentView.swift */,
+				CAA2E4335FCB2068FCCB7EF1 /* DetailView.swift */,
+				186A07CA39A76CD66450BD81 /* EmptyStateView.swift */,
+				4383DA76C6A133F6ED71510C /* SearchBarView.swift */,
+				A6A04392C133622687356893 /* SettingsView.swift */,
+			);
+			name = "UI";
+			path = "UI";
+			sourceTree = "<group>";
+		};
+		89A60A397116491050B7CA86 = {
+			isa = PBXGroup;
+			children = (
+				A6C5D341CE7BAB30F7A2F21E /* ClipVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95F7DA58298DFD6239AB476 /* ClipVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C6475A03F58CCFCA474B08 /* Build configuration list for PBXNativeTarget "ClipVault" */;
+			buildPhases = (
+				97275A23C5B481CD5B69D86C /* Sources */,
+				1F09A9B75CFC0683DA2AF698 /* Frameworks */,
+				39AD48006F152362CAAC2B1B /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = "ClipVault";
+			productName = "ClipVault";
+			productReference = A6C5D341CE7BAB30F7A2F21E /* ClipVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32D67FD830A7E12C35DAEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F95F7DA58298DFD6239AB476 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = FDDE01891E323437FD4FFFDE /* Build configuration list for PBXProject "ClipVault" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = D06EB0960868B5FA90E90DE4;
+			productRefGroup = 89A60A397116491050B7CA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95F7DA58298DFD6239AB476 /* ClipVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97275A23C5B481CD5B69D86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDA3FF7278B4AF9C021BD9D /* AppDelegate.swift in Sources */,
+				0864862303E85E6D3180FA09 /* ClipVaultApp.swift in Sources */,
+				8BE1FB42A687FBE04C4758A8 /* ClipPanelController.swift in Sources */,
+				EA886B4683442DDE0014A7B3 /* ClipCardView.swift in Sources */,
+				F200359A546010340EE48B9E /* ClipListView.swift in Sources */,
+				D8CBA22E51351A3443B575F6 /* ContentView.swift in Sources */,
+				B63E4FD06C12649B30B72291 /* DetailView.swift in Sources */,
+				B1DEACB777F83BBEB5B96593 /* EmptyStateView.swift in Sources */,
+				A526E129174FE64B08FDC782 /* SearchBarView.swift in Sources */,
+				47C4C39E9ACE823B3EDF338B /* SettingsView.swift in Sources */,
+				61458031C566A3D4A875BDCB /* CleanupService.swift in Sources */,
+				76CD3FAAD2EAC1ADB17B7030 /* ClipboardMonitor.swift in Sources */,
+				639060425A38F31AD8C50F93 /* ClipboardService.swift in Sources */,
+				E52ED10E71AD1566612040DE /* DataService.swift in Sources */,
+				9879B6C7B99EB76BDEAD6E21 /* ImageStorageService.swift in Sources */,
+				2DAE2D1D6BF8944208D8D6A6 /* ShortcutService.swift in Sources */,
+				F557C197857A20EA7020CF51 /* ClipEntry.swift in Sources */,
+				00483D6FED11C6DC28C018A5 /* Date+Extensions.swift in Sources */,
+				9997C426FEC4139178359AC8 /* NSImage+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F09A9B75CFC0683DA2AF698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AD48006F152362CAAC2B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B38A7CBAFE3D8F1F9297C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1",);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F7B665FAB932D7EE55BDDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56A3BA244C521BEE8D006FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Volumes/可事传媒/ai缓存/ai编程/ClipVault/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSSupportsAutomaticTermination = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clipvault.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CCE2E58FBFB7B7EC5632C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Volumes/可事传媒/ai缓存/ai编程/ClipVault/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSSupportsAutomaticTermination = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clipvault.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDE01891E323437FD4FFFDE /* Build configuration list for PBXProject "ClipVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B38A7CBAFE3D8F1F9297C05 /* Debug */,
+				5F7B665FAB932D7EE55BDDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C6475A03F58CCFCA474B08 /* Build configuration list for PBXNativeTarget "ClipVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A3BA244C521BEE8D006FDB /* Debug */,
+				CCE2E58FBFB7B7EC5632C5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = C32D67FD830A7E12C35DAEAF /* Project object */;
+}
