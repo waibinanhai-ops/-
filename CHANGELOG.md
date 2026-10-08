@@ -11,6 +11,7 @@
 ## [Unreleased]
 
 ### Added
+- feat(resolve): 解决每个音频单独一个轨道的问题
 - chore(admin): add project CLAUDE.md with commit workflow (`8494d88`)
 - chore(admin): add CHANGELOG.md (`cea0948`)
 
